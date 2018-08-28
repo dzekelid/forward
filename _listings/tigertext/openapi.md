@@ -1,10 +1,9 @@
----
 swagger: "2.0"
 x-collection-name: TigerText
 x-complete: 1
 info:
-  title: Tiger Connect Message API
-  description: the-message-system-for-tigerconnect-messaging-platform-
+  title: TigerConnect User API
+  description: the-user-system-for-tigerconnect-messaging-platform-
   termsOfService: http://www.tigertext.com/developer-terms-of-use
   contact:
     name: TigerText
@@ -47,4 +46,3 @@ paths:
       - Message
       - Token
       - Forward
----

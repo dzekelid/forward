@@ -15,33 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /Messages{message_id}/CreateForward:
-    post:
-      summary: Add Messages Message Createforward
-      description: Post messages message  createforward
-      operationId: postMessagesMessageCreateforward
-      x-api-path-slug: messagesmessage-idcreateforward-post
-      responses:
-        200:
-          description: OK
-      tags:
-      - Messages
-      - Message
-      - ""
-      - Createforward
-    parameters:
-      summary: Parameters Messages Message Createforward
-      description: Parameters messages message  createforward
-      operationId: parametersMessagesMessageCreateforward
-      x-api-path-slug: messagesmessage-idcreateforward-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Messages
-      - Message
-      - ""
-      - Createforward
   /Messages{message_id}/Forward:
     post:
       summary: Add Messages Message Forward

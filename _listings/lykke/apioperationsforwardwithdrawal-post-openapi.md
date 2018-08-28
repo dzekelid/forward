@@ -14,6 +14,27 @@ produces:
 consumes:
 - application/json
 paths:
+  /api/offchain/cashout/forward:
+    post:
+      summary: Add API Offchain Cashout Forward
+      description: Add api offchain cashout forward.
+      operationId: ApiOffchainCashoutForwardPost
+      x-api-path-slug: apioffchaincashoutforward-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: body
+        name: model
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Offchain
+      - Cashout
+      - Forward
   /api/operations/ForwardWithdrawal:
     post:
       summary: Add API Operations Forwardwithdrawal

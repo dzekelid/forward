@@ -7,91 +7,86 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Forward
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Mail Settings Forward Bounce
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to retrieve your current bounce forwarding
-    mail settings.**\n\nActivating this setting allows you to specify an email address
-    to which bounce reports are forwarded.\n\nMail settings allow you to tell SendGrid
-    specific things to do to every email that you send to your recipients over SendGrid\u2019s
-    [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
-    Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+- name: SendGrid - Get Mail Settings Forward Bounce
+  x-api-slug: mail-settingsforward-bounce-get
+  description: |-
+    **This endpoint allows you to retrieve your current bounce forwarding mail settings.**
+
+    Activating this setting allows you to specify an email address to which bounce reports are forwarded.
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//mail_settings/forward_bounce
-  tags: Email,Mail, Settings, Forward, Bounce
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/sendgrid/mail-settingsforward-bounce-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/sendgrid/mail-settingsforward-bounce-get-openapi.md
-- name: SendGrid Patch Mail Settings Forward Bounce
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to update your current bounce forwarding
-    mail settings.**\n\nActivating this setting allows you to specify an email address
-    to which bounce reports are forwarded.\n\nMail settings allow you to tell SendGrid
-    specific things to do to every email that you send to your recipients over SendGrid\u2019s
-    [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP
-    Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+- name: SendGrid - Patch Mail Settings Forward Bounce
+  x-api-slug: mail-settingsforward-bounce-patch
+  description: |-
+    **This endpoint allows you to update your current bounce forwarding mail settings.**
+
+    Activating this setting allows you to specify an email address to which bounce reports are forwarded.
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//mail_settings/forward_bounce
-  tags: Email,Mail, Settings, Forward, Bounce
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/sendgrid/mail-settingsforward-bounce-patch-openapi.md
-- name: SendGrid Get Mail Settings Forward Spam
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to retrieve your current Forward Spam mail
-    settings.**\n\nEnabling the forward spam setting allows you to specify an email
-    address to which spam reports will be forwarded.\n\nMail settings allow you to
-    tell SendGrid specific things to do to every email that you send to your recipients
-    over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-    or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+- name: SendGrid - Get Mail Settings Forward Spam
+  x-api-slug: mail-settingsforward-spam-get
+  description: |-
+    **This endpoint allows you to retrieve your current Forward Spam mail settings.**
+
+    Enabling the forward spam setting allows you to specify an email address to which spam reports will be forwarded.
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//mail_settings/forward_spam
-  tags: Email,Mail, Settings, Forward, Spam
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/sendgrid/mail-settingsforward-spam-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/sendgrid/mail-settingsforward-spam-get-openapi.md
-- name: SendGrid Patch Mail Settings Forward Spam
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to update your current Forward Spam mail
-    settings.**\n\nEnabling the forward spam setting allows you to specify an email
-    address to which spam reports will be forwarded.\n\nMail settings allow you to
-    tell SendGrid specific things to do to every email that you send to your recipients
-    over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-    or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//mail_settings/forward_spam
-  tags: Email,Mail, Settings, Forward, Spam
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/sendgrid/mail-settingsforward-spam-patch-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
+- name: SendGrid - Patch Mail Settings Forward Spam
+  x-api-slug: mail-settingsforward-spam-patch
+  description: |-
+    **This endpoint allows you to update your current Forward Spam mail settings.**
+
+    Enabling the forward spam setting allows you to specify an email address to which spam reports will be forwarded.
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3
-  tags: Forward
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/sendgrid/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/sendgrid/mail-settingsforward-spam-patch-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog

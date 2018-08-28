@@ -1,0 +1,185 @@
+{
+	"name": "Streadata.io API Gallery - Forward",
+	"description": "This is a repository of forward APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/forward.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://forward.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Forward",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Forward",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TigerText",
+			"x-api-slug": "tigertext",
+			"description": "TigerText is a multi-platform, secure, real-time messaging application for the enterprise that allows text messages to be deleted from both the senders and the receivers phones after expiration, which could be a set period of time or after reading. The messages cannot be saved, copied or forwarded by recipients. TigerText does this by storing the message on a company server, not the receiving and sending device, and deleting when the expiration conditions are met.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png",
+			"humanURL": "http://www.tigertext.com/",
+			"baseURL": "https://developer.tigertext.me//v2/",
+			"tags": "Forward",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/tigertext/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Office 365",
+			"x-api-slug": "microsoft-office-365",
+			"description": "Integrate Office 365 REST APIs powered by Microsoft Graph into your own app to connect to files, calendars, mail and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png",
+			"humanURL": "http://office.com",
+			"baseURL": "https://outlook.office365.com//ews/odata/Me",
+			"tags": "Forward",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/microsoft-office-365/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Directory Service",
+			"x-api-slug": "aws-directory-service",
+			"description": "AWS Directory Service for Microsoft Active Directory (Enterprise Edition), also known as AWS Microsoft AD, enables your directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud. The Microsoft AD service is built on actual Microsoft Active Directory and does not require you to synchronize or replicate data from your existing Active Directory to the cloud. You can use standard Active Directory administration tools and take advantage of built-in Active Directory features such as Group Policy, trusts, and single sign-on. With Microsoft AD, you can easily joinAmazon EC2andAmazon RDS for SQL Serverinstances to a domain, and useAWS Enterprise IT applicationssuch asAmazon WorkSpaceswith Active Directory users and groups.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png",
+			"humanURL": "https://aws.amazon.com/directoryservice/",
+			"baseURL": ":///",
+			"tags": "Forward",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/aws-directory-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"x-api-slug": "aws-simple-email-service",
+			"description": "Amazon Simple Email Service (Amazon SES) is a cost-effective email service built on the reliable and scalable infrastructure that Amazon.com developed to serve its own customer base. With Amazon SES, you can send and receive email with no required minimum commitments &ndash; you pay as you go, and you only pay for what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png",
+			"humanURL": "https://aws.amazon.com/ses/",
+			"baseURL": ":///",
+			"tags": "Forward",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/aws-simple-email-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Forward",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Forward",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Forward",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/avaza/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Forward",
+	"include": [
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "TigerText",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/tigertext/apis.yaml"
+		},
+		{
+			"name": "Microsoft Office 365",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/microsoft-office-365/apis.yaml"
+		},
+		{
+			"name": "AWS Directory Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/aws-directory-service/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/aws-simple-email-service/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/avaza/apis.yaml"
+		}
+	]
+}

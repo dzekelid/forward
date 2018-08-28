@@ -15,6 +15,26 @@ produces:
 consumes:
 - application/json
 paths:
+  /GetRealTimeForwardRate:
+    get:
+      summary: Get Real Time Forward Rate
+      description: Returns a set of real-time currency forward rates.
+      operationId: postGetrealtimeforwardrate
+      x-api-path-slug: getrealtimeforwardrate-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Real
+      - Time
+      - Forward
+      - Rate
   /GetForwardRateAgreement:
     get:
       summary: Get Forward Rate Agreement

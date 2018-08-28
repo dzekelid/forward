@@ -7,77 +7,60 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Forward
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Currencies Get Real Time Forward Rate
-  x-api-slug: xignite-currencies
+- name: Xignite Currencies - Get Real Time Forward Rate
+  x-api-slug: getrealtimeforwardrate-get
   description: Returns a set of real-time currency forward rates.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetRealTimeForwardRate
-  tags: Market Data,Real, Time, Forward, Rate
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/xignite/getrealtimeforwardrate-get-openapi.md
-- name: Xignite Currencies
-  x-api-slug: xignite-currencies
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
-  tags: Forward
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/xignite/openapi.md
-- name: Xignite Money Markets Get Forward Rate Agreement
-  x-api-slug: xignite-money-markets
+- name: Xignite Money Markets - Get Forward Rate Agreement
+  x-api-slug: getforwardrateagreement-get
   description: Returns a calculated Forward Rate Agreement as of a date
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets//GetForwardRateAgreement
-  tags: Market Data,Forward, Rate, Agreement
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/xignite/getforwardrateagreement-get-openapi.md
-- name: Xignite Money Markets
-  x-api-slug: xignite-money-markets
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
-  tags: Forward
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/xignite/openapi.md
-- name: Xignite Rates Get Forward Rate Agreement
-  x-api-slug: xignite-rates
-  description: Returns a calculated Forward Rate Agreement as of a date
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetForwardRateAgreement
-  tags: Market Data,Forward, Rate, Agreement
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/xignite/getforwardrateagreement-get-openapi.md
-- name: Xignite Rates
-  x-api-slug: xignite-rates
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
+- name: Xignite Rates - Get Forward Rate Agreement
+  x-api-slug: getforwardrateagreement-get
+  description: Returns a calculated Forward Rate Agreement as of a date
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xRates.json/XigniteRates
-  tags: Forward
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/xignite/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/xignite/getforwardrateagreement-get-openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies

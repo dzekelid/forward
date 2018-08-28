@@ -7,43 +7,36 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Forward
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Lykke Add API Operations Forwardwithdrawal
-  x-api-slug: lykke
-  description: Add api operations forwardwithdrawal.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/operations/ForwardWithdrawal
-  tags: Operations,Forwardwithdrawal
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/lykke/apioperationsforwardwithdrawal-post-openapi.md
-- name: Lykke Add API Offchain Cashout Forward
-  x-api-slug: lykke
+- name: Wallet_Api - Add API Offchain Cashout Forward
+  x-api-slug: apioffchaincashoutforward-post
   description: Add api offchain cashout forward.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/offchain/cashout/forward
-  tags: Offchain,Cashout,Forward
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/lykke/apioffchaincashoutforward-post-openapi.md
-- name: Lykke
-  x-api-slug: lykke
-  description: Lykke is a movement to build one global marketplace that is a level
-    playing field where everyone has access.
+- name: Wallet_Api - Add API Operations Forwardwithdrawal
+  x-api-slug: apioperationsforwardwithdrawal-post
+  description: Add api operations forwardwithdrawal.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
   baseURL: https:////
-  tags: Forward
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/lykke/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forward/master/_listings/lykke/apioperationsforwardwithdrawal-post-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://lyft.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://lykke.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/lykke-ag
 - type: x-email
